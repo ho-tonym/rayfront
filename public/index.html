@@ -14,6 +14,22 @@
     <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.ico">
     <title>Raymond Zhang | Magic</title>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      // Decodes the path that 404.html stashed in the query string so that
+      // BrowserRouter sees the original URL (e.g. /about) instead of /?/about.
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
