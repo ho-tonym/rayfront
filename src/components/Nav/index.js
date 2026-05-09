@@ -37,7 +37,7 @@ const Nav = (props) => {
         <a href="https://facebook.com/Raymond-Zhang-Magic-579400302706836/" onClick={() => toggle(false)}>
           <h2>Facebook</h2>
         </a>
-        <a href="https://www.instagram.com/raymondzhangmagic/" onClick={() => toggle(false)}>
+        <a href="https://www.instagram.com/raymond_magic" onClick={() => toggle(false)}>
           <h2>Instagram</h2>
         </a>
       </div>
@@ -60,7 +60,7 @@ const Nav = (props) => {
           <a href="https://facebook.com/Raymond-Zhang-Magic-579400302706836/">
             <p>Facebook</p>
           </a>
-          <a href="https://www.instagram.com/raymondzhangmagic/">
+          <a href="https://www.instagram.com/raymond_magic">
             <p>Instagram</p>
           </a>
         </section>
