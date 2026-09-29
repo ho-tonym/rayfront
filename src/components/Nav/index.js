@@ -38,7 +38,15 @@ const Nav = (props) => {
           <h2>Instagram</h2>
         </a>
       </div>
-      <button type="button" className={styles.closeBtn} onClick={() => toggle(false)}><p>&times;</p></button>
+      {open && (
+        <button
+          type="button"
+          className={styles.closeBtn}
+          onClick={() => toggle(false)}
+        >
+          <p>&times;</p>
+        </button>
+      )}
     </animated.div>
     <div className={styles.Nav}>
       <section className={styles.NavContent}>

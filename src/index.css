@@ -50,7 +50,15 @@ p, button{
 }
 /* margin on root is actually not a great idea */
 /* add margin to each page componenet */
-*:focus {
+*,
+*::before,
+*::after {
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:focus,
+*:focus-visible,
+*:active {
     -webkit-tap-highlight-color: transparent;
     outline: none;
     -ms-touch-action: manipulation;
